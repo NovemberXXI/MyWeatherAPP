@@ -34,7 +34,7 @@ async function getWeatherData(cityValue) {
 
     const details = [
       `Feels like: ${Math.round(data.main.feels_like)}`,
-      `Humidity: ${data.main.humudity}%`,
+      `Humidity: ${data.main.humidity}%`,
       `Wind speed: ${data.wind.speed} m/s`,
     ];
 
